@@ -10,7 +10,6 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("Введите количество элементов");
             int n = int.Parse(Console.ReadLine());
             double[] nums = new double[n];
@@ -19,10 +18,8 @@ namespace ConsoleApp3
                 Console.WriteLine("Введите {0}-й элемент", i + 1);
                 nums[i] = double.Parse(Console.ReadLine());
             }
-
             for (int i = 0; i < n; i++)
             {
-                
                 for (int b = i; b < n; b++)
                 {
                     
